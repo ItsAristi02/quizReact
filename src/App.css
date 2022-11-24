@@ -1,38 +1,50 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2? family= JetBrains+Mono:ital,wght@0,100;0,200;1,100 & display=swap');
+
+*{
+  font-family: 'JetBrains Mono', monoespacio;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
+.header{
+  height: 15vh;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-shadow: 2px 2px 5px gray;
+  opacity: .9;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar img{
+width: 10%;
+height: 95%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.nav-item{
+list-style: none;
+margin-right: 4%;
+}
+
+.main{
+  height: 100vh;
+}
+
+.footer{
+  
+  text-align: center;
+  height: 25vh;
+  background-color: #1EC73A;
+
+}
+
+
+.footer-menu, .copy{
+  font-size: 18px;
+}
+
+.footer img{
+  height: 30px;
+}
+
+.carousel img{
+height: 60vh;
+width: 100%;
 }
