@@ -4,7 +4,7 @@ const Footer = () => {
     return (
         <footer className="footer  text-align-center mt-5 w-100">
             <ul className="list-inline">
-                <li className="list-inline-item p-2 footer-menu text-white fst-italic fw-semibold" >Inicio</li>
+                <li className="list-inline-item p-2 footer-menu text-white fst-italic" >Inicio</li>
                 <li className="list-inline-item p-2 footer-menu text-white fst-italic" >Servicios</li>
                 <li className="list-inline-item p-2 footer-menu text-white fst-italic" >Sobre Nosotros</li>
                 <li className="list-inline-item p-2 footer-menu text-white fst-italic" >Contacto</li>
